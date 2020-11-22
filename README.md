@@ -14,5 +14,7 @@ my memo.
 
 - [frontend](./frontend/README.md)
 
+- [shell](./shell/README.md)
+
 ---
 
