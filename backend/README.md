@@ -12,6 +12,8 @@ See [memo.md](./memo.md).
 
 - [Go](./go/README.md)
 
-- [Rust](./go/README.md)
+- [PHP](./php/README.md)
+
+- [Rust](./rust/README.md)
 
 ---
