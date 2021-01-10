@@ -92,4 +92,26 @@ v12.20.0
 ```
 
 
+## install packages
+
+###  List
+1. yarn
+2. vue-cli
+3. TypeScript
+4. create-react-app
+5. aglio
+
+```shell-sesshion
+$ npm install -g yarn
+$ yarn global add @vue/cli
+$ npm install -g typescript
+$ npm install -g create-react-app
+$ npm install -g aglio --unsafe-perm
+```
+
+```shell-sesshion
+$ npm install -g yarn typescript reate-react-app aglio --unsafe-perm
+$ yarn global add @vue/cli
+```
+
 ---
