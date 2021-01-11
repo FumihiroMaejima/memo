@@ -9,6 +9,13 @@ $ kill -9 572(プロセスID)
 ```
 
 ---
+# catで出力したテキストをクリップボードにコピー
+
+```shell-session
+$ cat ~/.ssh/id_rsa.pub | pbcopy
+```
+
+---
 
 # Title
 
