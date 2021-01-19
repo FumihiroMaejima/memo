@@ -8,6 +8,8 @@ See [memo.md](./memo.md).
 
 ## content
 
+- [batch](./batch/README.md)
+
 - [mac](./mac/README.md)
 
 ---

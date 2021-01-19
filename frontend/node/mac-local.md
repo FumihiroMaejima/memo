@@ -76,8 +76,8 @@ $ nvm use stable
 $ vim ~/.bashrc
 
 # Node.js
-# export NODE_PATH=$NODE_PATH:/Users/fandm/.nvm/versions/node/v12.13.1/lib/node_modules
-export NODE_PATH=_modules:/Users/fandm/.nvm/versions/node/v12.13.1/lib/node_modules
+# export NODE_PATH=$NODE_PATH:/Users/user-name/.nvm/versions/node/v12.13.1/lib/node_modules
+export NODE_PATH=_modules:/Users/user-name/.nvm/versions/node/v12.13.1/lib/node_modules
 ```
 
 ```shell-sesshion
