@@ -7,7 +7,7 @@
 
 ```shell-sesshion
 $ git clone https://github.com/syndbg/goenv.git ~/.goenv
-Cloning into '/Users/fandm/.goenv'...
+Cloning into '/Users/user-name/.goenv'...
 remote: Enumerating objects: 136, done.
 remote: Counting objects: 100% (136/136), done.
 remote: Compressing objects: 100% (75/75), done.
@@ -48,7 +48,7 @@ $ goenv install 1.15.6
 Downloading go1.15.6.darwin-amd64.tar.gz...
 -> https://golang.org/dl/go1.15.6.darwin-amd64.tar.gz
 Installing Go Darwin 64bit 1.15.6...
-Installed Go Darwin 64bit 1.15.6 to /Users/fandm/.goenv/versions/1.15.6
+Installed Go Darwin 64bit 1.15.6 to /Users/user-name/.goenv/versions/1.15.6
 ```
 
 ## setting golang(GOPATH, GOROOT)
