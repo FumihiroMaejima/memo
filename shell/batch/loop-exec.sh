@@ -7,12 +7,12 @@ doLoopExecutions() {
 }
 
 # 配列データ
-models=("list1"
+models=(
+"list1"
 "list2"
 "list3"
 "list4"
 "list5"
-
 )
 
 # 配列のループ処理
