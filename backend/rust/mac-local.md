@@ -42,10 +42,8 @@ rustup 1.23.1 (3df2264a9 2020-11-30)
 info: This is the version for the rustup toolchain manager, not the rustc compiler.
 info: The currently active `rustc` version is `rustc 1.49.0 (e1884a8e3 2020-12-29)`
 
-$ rustup --version
-rustup 1.23.1 (3df2264a9 2020-11-30)
-info: This is the version for the rustup toolchain manager, not the rustc compiler.
-info: The currently active `rustc` version is `rustc 1.49.0 (e1884a8e3 2020-12-29)`
+$ cargo --version
+cargo 1.49.0 (d00d64df9 2020-12-05)
 
 ```
 
