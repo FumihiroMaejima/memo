@@ -8,7 +8,7 @@ See [memo.md](./memo.md).
 
 ## content
 
-- [creat-react-app](./creat-react-app.md)
+- [create-react-app](./create-react-app.md)
 
 ---
 
