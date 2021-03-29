@@ -2,6 +2,14 @@
 
 ---
 
+# Mac環境でアップグレードする方法
+
+```shell--sesshion
+$ brew upgrade git
+```
+
+---
+
 # SSH経由でgithubリポジトリをclone
 
 ```shell--sesshion
