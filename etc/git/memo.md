@@ -17,12 +17,22 @@ $ git clone git@github.com:accountName/RepositoryName.git
 ```
 ---
 
-# Commit メッセージの修正
+# 直前のCommit メッセージの修正
 
 コマンドを実行すると`vi`などで直前のコミットメッセージを修正出来る。
 
 ```shell--sesshion
 $ git commit --amend
+```
+
+---
+
+# commitのリバート
+
+指定したコミットIDのコミットをrevertする。
+
+```shell--sesshion
+$ git revert --no-edit commitId
 ```
 
 ---
@@ -38,7 +48,7 @@ $ git fetch origin develop
 # (ローカルに履歴として残っている)リモートで削除されているリモートブランチの削除
 
 ```shell--sesshion
-$ git fetch origin develop
+$ git remote prune prigin
 ```
 ---
 
