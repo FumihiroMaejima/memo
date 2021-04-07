@@ -12,4 +12,6 @@ See [memo.md](./memo.md).
 
 - [mac](./mac/README.md)
 
+- [memo](./mac/README.md)
+
 ---
