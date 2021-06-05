@@ -2,12 +2,60 @@
 
 ---
 
-# Commit メッセージの修正
+# Mac環境でアップグレードする方法
+
+```shell--sesshion
+$ brew upgrade git
+```
+
+---
+
+# SSH経由でgithubリポジトリをclone
+
+```shell--sesshion
+$ git clone git@github.com:accountName/RepositoryName.git
+```
+---
+
+# 直前のCommit メッセージの修正
 
 コマンドを実行すると`vi`などで直前のコミットメッセージを修正出来る。
 
 ```shell--sesshion
 $ git commit --amend
+```
+
+---
+
+# commitのリバート
+
+指定したコミットIDのコミットをrevertする。
+
+```shell--sesshion
+$ git revert --no-edit commitId
+```
+
+---
+
+# リモートリポジトリの最新の履歴の取得
+
+```shell--sesshion
+$ git fetch origin develop
+```
+
+---
+
+# (ローカルに履歴として残っている)リモートで削除されているリモートブランチの削除
+
+```shell--sesshion
+$ git remote prune prigin
+```
+---
+
+# リモートリポジトリの最新の履歴の取得
+
+```shell--sesshion
+$ git fetch origin develop
 ```
 
 ---
@@ -25,5 +73,20 @@ $ git rebase develop
 ```shell--sesshion
 $ git rebase --continue
 ```
+
+失敗したrebaseの取り消し
+
+```shell--sesshion
+$ git rebase --aborts
+```
+
+---
+# check global config
+
+```shell--sesshion
+$ git config --global -l
+```
+
+
 
 ---

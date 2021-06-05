@@ -18,5 +18,7 @@ my memo.
 
 - [shell](./shell/README.md)
 
+- [tool](./tool/README.md)
+
 ---
 

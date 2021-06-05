@@ -5,6 +5,8 @@
 # Install goenv
 ## install
 
+`golang`のアップデートバージョンをローカルに反映する為には、都度`goenv`を下記の通りにインストールする必要がある。
+
 ```shell-sesshion
 $ git clone https://github.com/syndbg/goenv.git ~/.goenv
 Cloning into '/Users/user-name/.goenv'...
@@ -67,6 +69,24 @@ or `~/.zshenv,~/.zshrc`
 $ goenv global 1.15.6
 $ go version
 go version go1.15.6 darwin/amd64
+```
+
+## version up golang
+
+`which go` で`/Users/username/go/`に格納されているバージョンを参照する事がある。
+
+下記の通りにコピーすれば良い。(shellの再起動が必要な時もある。)
+
+```shell-sesshion
+$ cp -rf /Users/username/.goenv/versions/1.16.4 /Users/username/go/1.16.4
+$ source ~/.bash_profile
+$ goenv -v
+goenv 2.0.0beta11
+$ goenv versions
+  system
+* 1.16.4 (set by /Users/username/.goenv/version)
+$ go version
+go version go1.16.4 darwin/amd64
 ```
 
 ## setting GO111MODULE (for develop on another dir)
