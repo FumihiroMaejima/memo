@@ -84,7 +84,7 @@ $ goenv -v
 goenv 2.0.0beta11
 $ goenv versions
   system
-* 1.16.4 (set by /Users/fandm/.goenv/version)
+* 1.16.4 (set by /Users/username/.goenv/version)
 $ go version
 go version go1.16.4 darwin/amd64
 ```

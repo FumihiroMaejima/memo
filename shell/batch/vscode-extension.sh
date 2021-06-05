@@ -50,6 +50,7 @@ vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 vuetifyjs.vuetify-vscode
 wwm.better-align
+jebbs.plantuml
 )
 
 for i in ${packagelist[@]}; do
