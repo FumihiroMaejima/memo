@@ -87,6 +87,33 @@ $ git rebase --aborts
 $ git config --global -l
 ```
 
+---
+# リモートリポジトリのURLチェック
+
+```shell--sesshion
+$ git remote -v
+origin  https://github.com/user_name/repository_name (fetch)
+origin  https://github.com/user_name/repository_name (push)
+```
+
+---
+
+# リモートリポジトリのURLの変更
+
+```shell--sesshion
+$ git remote -v
+origin  https://github.com/user_name/repository_name (fetch)
+origin  https://github.com/user_name/repository_name (push)
+
+$ git remote set-url origin git@github.com:user_name/repository_name.git
+
+$ git remote -v
+origin  git@github.com:user_name/repository_name.git (fetch)
+origin  git@github.com:user_name/repository_name.git (push)
+
+```
+
+---
 
 
 ---
