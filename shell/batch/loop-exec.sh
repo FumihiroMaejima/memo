@@ -16,9 +16,9 @@ models=(
 )
 
 # 配列のループ処理
-for models in ${models[@]};
+for model in ${models[@]};
 do
-  doLoopExecutions $models
+  doLoopExecutions $model
 done
 
 # ex

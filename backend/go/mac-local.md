@@ -5,7 +5,7 @@
 # Install goenv
 ## install
 
-`golang`のアップデートバージョンをローカルに反映する為には、都度`goenv`を下記の通りにインストールする必要がある。
+`golang`のアップデートバージョンをローカルに反映する為には、都度`goenv`を下記の通りにインストールする必要がある。(既存の.gonevはリネームする必要がある。)
 
 ```shell-sesshion
 $ git clone https://github.com/syndbg/goenv.git ~/.goenv
@@ -52,6 +52,11 @@ Downloading go1.15.6.darwin-amd64.tar.gz...
 Installing Go Darwin 64bit 1.15.6...
 Installed Go Darwin 64bit 1.15.6 to /Users/user-name/.goenv/versions/1.15.6
 ```
+## Copy Direcotory to $GOPATH
+
+```shell-sesshion
+$ cp -rf ~/.goenv/versions/1.16.6 ~/go/
+```
 
 ## setting golang(GOPATH, GOROOT)
 
@@ -69,6 +74,12 @@ or `~/.zshenv,~/.zshrc`
 $ goenv global 1.15.6
 $ go version
 go version go1.15.6 darwin/amd64
+```
+
+### extention VSCode package.
+
+```Shell-session
+> Go:  Install/Update Tools
 ```
 
 ## version up golang
@@ -153,7 +164,7 @@ func main() {
     a, _ := strconv.Atoi(os.Args[1])
     b, _ := strconv.Atoi(os.Args[2])
     fmt.Println(add.Add(a, b))
-}s
+}
 ```
 
 ## edit gotest/go.mod
