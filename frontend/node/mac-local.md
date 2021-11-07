@@ -106,11 +106,12 @@ $ npm install -g yarn
 $ yarn global add @vue/cli
 $ npm install -g typescript
 $ npm install -g create-react-app
+$ npm install -g @aws-amplify/cli
 $ npm install -g aglio --unsafe-perm
 ```
 
 ```shell-sesshion
-$ npm install -g yarn typescript reate-react-app aglio --unsafe-perm
+$ npm install -g yarn typescript reate-react-app @aws-amplify/cli aglio --unsafe-perm
 $ yarn global add @vue/cli
 ```
 
