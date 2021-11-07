@@ -12,9 +12,13 @@ my memo.
 
 - [design](./design/README.md)
 
+- [etc](./etc/README.md)
+
 - [frontend](./frontend/README.md)
 
 - [shell](./shell/README.md)
+
+- [tool](./tool/README.md)
 
 ---
 

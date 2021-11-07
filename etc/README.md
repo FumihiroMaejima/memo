@@ -1,12 +1,13 @@
-# Mac Memo
+# etc Memo
 
-my mac memo.
+my etc memo.
 
 See [memo.md](./memo.md).
 
 ---
+
 ## content
 
-- [sed](./sed/README.md)
+- [Git](./git/README.md)
 
 ---
