@@ -51,6 +51,7 @@ vscode-icons-team.vscode-icons
 vuetifyjs.vuetify-vscode
 wwm.better-align
 jebbs.plantuml
+graphql.vscode-graphql
 )
 
 for i in ${packagelist[@]}; do
