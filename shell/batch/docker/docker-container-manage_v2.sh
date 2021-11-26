@@ -11,9 +11,8 @@ showMessage() {
   echo $1
 }
 
+# process start
 showMessage ${START_MESSAGE}
-
-echo ${SEPARATOPION}
 
 # -qオプション container idのみを表示
 # /dev/null: 出力が破棄され、なにも表示されない。
