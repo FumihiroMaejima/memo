@@ -1,9 +1,16 @@
 #!/bin/sh
 
+# CURRENT_DIR=$(cd $(dirname $0); pwd)
 SEPARATOPION='---------------------------'
 START_MESSAGE='start restore database dump.'
-echo ${SEPARATOPION}
-echo ${START_MESSAGE}
+
+# @param {string} message
+showMessage() {
+  echo ${SEPARATOPION}
+  echo $1
+}
+
+showMessage ${START_MESSAGE}
 
 # dateコマンド結果を指定のフォーマットで出力
 TIME_STAMP=$(date "+%Y%m%d_%H%M%S")
@@ -21,7 +28,5 @@ OUTPUT_FILE=sample/dump/dump.sql
 docker exec -it ${DATABASE_CONTAINER_NAME} mysqldump -u ${DATABASE_USER} -p${DATABASE_PASSWORD} -D ${DATABASE_NAME} < ${OUTPUT_FILE}
 
 # 現在のDocker コンテナの状態を出力
-echo ${SEPARATOPION}
-echo 'restore data base dump.'
-echo ${SEPARATOPION}
+showMessage 'restore data base dump.'
 
