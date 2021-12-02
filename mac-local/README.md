@@ -368,6 +368,7 @@ Sourcetree
 dbeaver
 Figma
 Postman
+Notion
 ```
 
 ------------------------------------------------------
