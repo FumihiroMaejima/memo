@@ -392,6 +392,7 @@ openssl,git-flow,swagger-codegenは`homebrew`でインストールする
 ```shell-session
 $ brew install openssl
 $ brew install git-flow
+$ brew install swagger-codegen
 $ pip install awscli
 ```
 
