@@ -327,6 +327,21 @@ typescript等を入れる前にaws-cliを入れておく。
 $ pip install awscli
 ```
 
+### pipでインストールしたaws-cliのアンインストール
+
+現状、pipでaws-cli@v2をインストール出来ない為、公式からインストーラーをダウンロードしてインストールする。
+
+```Shell-session
+$ pip uninstall awscli
+```
+
+v2に変更後。
+
+```Shell-session
+$ aws --version
+aws-cli/2.4.7 Python/3.8.8 Darwin/21.2.0 exe/x86_64 prompt/off
+```
+
 ---
 
 # npm packageのインストール
