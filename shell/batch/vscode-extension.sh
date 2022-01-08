@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# removedList=(
+# coenraads.bracket-pair-colorizer # -- it had vscode default function by setting.
+# )
+
 # Visual Studio Code :: Package list
 packagelist=(
 arjun.swagger-viewer
@@ -7,7 +11,6 @@ bajdzis.vscode-database
 bmewburn.vscode-intelephense-client
 cjhowe7.laravel-blade
 codezombiech.gitignore
-coenraads.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 vdonjayamanne.githistory
 dsznajder.es7-react-js-snippets
