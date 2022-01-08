@@ -1,6 +1,6 @@
 # Work Memo
 
-my work memo.
+my work memo(sample).
 
 See [memo.md](./memo.md).
 
