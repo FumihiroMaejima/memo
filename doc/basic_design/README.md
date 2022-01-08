@@ -8,7 +8,7 @@ See [memo.md](./memo.md).
 
 ## content
 
-- [basic-design](./README.md)
+- [成果物について](./deliverables.md)
 
 ---
 
