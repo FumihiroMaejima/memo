@@ -1,0 +1,27 @@
+@startuml test-page-flow
+
+[*] --> MainPage
+MainPage --> [*]
+MainPage : this is a string
+MainPage : this is another string
+
+SubPage --> [*]
+SubPage : this is a string SubPage
+SubPage : this is another string SubPage
+
+ListPage : this is a string ListPage
+ListPage : this is another string ListPage
+
+DetailPage : this is a string DetailPage
+DetailPage : this is another string DetailPage
+
+
+MainPage -> SubPage
+SubPage -> ListPage
+ListPage -> SubPage
+MainPage -> ListPage
+
+ListPage -> DetailPage
+DetailPage -> ListPage
+
+@enduml
