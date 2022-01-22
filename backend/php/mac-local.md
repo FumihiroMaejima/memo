@@ -104,7 +104,16 @@ lrwxr-xr-x  1 user  group  27  1 16 00:20 /opt/homebrew/php-fpm -> ../Cellar/php
 /opt/homebrew/Cellar/php@8.0/8.0.15/sbin/php-fpm
 ```
 
-インストールしたPHP v8.0系は下記にある、シンボリックリンクをこちらに貼り直すことでバージョンを変更出来る。
+`pear`や`pecl`などのPHP関係の他のパッケージのバージョンも変更する。
+
+下記のコマンドで必要なパッケージを確認する。
+
+```shell-sesshion
+$ ls -ls /opt/homebrew/bin | grep php
+$ ls -ls /opt/homebrew/sbin | grep php
+```
+
+シンボリックリンクの解除と作成の例は下記の通り(php,php-fpmの例)
 
 ```shell-sesshion
 # unlink
