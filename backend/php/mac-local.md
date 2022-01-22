@@ -111,7 +111,7 @@ lrwxr-xr-x  1 user  group  27  1 16 00:20 /opt/homebrew/php-fpm -> ../Cellar/php
 $ unlink /opt/homebrew/bin/php
 $ unlink /opt/homebrew/sbin/php-fpm
 
-# make symbplic link
+# make symbolic link
 $ ln -svf /opt/homebrew/Cellar/php@8.0/8.0.15/bin/php /opt/homebrew/bin/php
 $ ln -svf /opt/homebrew/Cellar/php@8.0/8.0.15/sbin/php-fpm /opt/homebrew/sbin/php-fpm
 ```
