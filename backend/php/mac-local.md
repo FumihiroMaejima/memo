@@ -126,6 +126,12 @@ $ ln -svf /opt/homebrew/Cellar/php/8.1.1/bin/php /opt/homebrew/bin/php
 $ ln -svf /opt/homebrew/Cellar/php/8.1.1/sbin/php-fpm /opt/homebrew/sbin/php-fpm
 ```
 
+PHPサービスの再起動
+
+```shell-sesshion
+$ brew services restart php
+```
+
 ---
 
 # Install Composer
