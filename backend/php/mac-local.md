@@ -65,6 +65,84 @@ $ brew upgrade php
 
 ---
 
+
+# Use Not Latest Version PHP
+
+reset symbric link.
+
+```shell-sesshion
+$ brew search php@8
+==> Formulae
+php@8.0                                       php ✔
+```
+
+```shell-sesshion
+$ brew install php@8.0
+```
+
+`php`と`php-fpm`のパスの確認
+シンボリックリンクの為、元のファイルの場所も確認する。
+
+```shell-sesshion
+$ which php
+/opt/homebrew/bin/php
+
+$ ls -al /opt/homebrew/bin/php
+lrwxr-xr-x  1 user  group  27  1 16 00:20 /opt/homebrew/bin/php -> ../Cellar/php/8.1.1/bin/php
+
+$ which php-fpm
+/opt/homebrew/sbin/php-fpm
+
+$ ls -al /opt/homebrew/bin/php
+lrwxr-xr-x  1 user  group  27  1 16 00:20 /opt/homebrew/php-fpm -> ../Cellar/php/8.1.1/sbin/php-fpm
+```
+
+インストールしたPHP v8.0系は下記にある、シンボリックリンクをこちらに貼り直すことでバージョンを変更出来る。
+
+```shell-sesshion
+/opt/homebrew/Cellar/php@8.0/8.0.15/bin/php
+/opt/homebrew/Cellar/php@8.0/8.0.15/sbin/php-fpm
+```
+
+`pear`や`pecl`などのPHP関係の他のパッケージのバージョンも変更する。
+
+下記のコマンドで必要なパッケージを確認する。
+
+```shell-sesshion
+$ ls -ls /opt/homebrew/bin | grep php
+$ ls -ls /opt/homebrew/sbin | grep php
+```
+
+シンボリックリンクの解除と作成の例は下記の通り(php,php-fpmの例)
+
+```shell-sesshion
+# unlink
+$ unlink /opt/homebrew/bin/php
+$ unlink /opt/homebrew/sbin/php-fpm
+
+# make symbolic link
+$ ln -svf /opt/homebrew/Cellar/php@8.0/8.0.15/bin/php /opt/homebrew/bin/php
+$ ln -svf /opt/homebrew/Cellar/php@8.0/8.0.15/sbin/php-fpm /opt/homebrew/sbin/php-fpm
+```
+
+最新のバージョンを使いたい場合は元のパスでシンボリックリンクを作成する。
+
+```shell-sesshion
+# unlink
+
+# make symbplic link
+$ ln -svf /opt/homebrew/Cellar/php/8.1.1/bin/php /opt/homebrew/bin/php
+$ ln -svf /opt/homebrew/Cellar/php/8.1.1/sbin/php-fpm /opt/homebrew/sbin/php-fpm
+```
+
+PHPサービスの再起動
+
+```shell-sesshion
+$ brew services restart php
+```
+
+---
+
 # Install Composer
 
 ## install openssl

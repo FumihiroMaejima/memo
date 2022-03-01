@@ -55,6 +55,7 @@ vuetifyjs.vuetify-vscode
 wwm.better-align
 jebbs.plantuml
 graphql.vscode-graphql
+evilz.vscode-reveal
 )
 
 for i in ${packagelist[@]}; do
