@@ -56,6 +56,7 @@ wwm.better-align
 jebbs.plantuml
 graphql.vscode-graphql
 evilz.vscode-reveal
+onecentlin.laravel5-snippets
 )
 
 for i in ${packagelist[@]}; do
