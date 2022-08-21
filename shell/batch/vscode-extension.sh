@@ -56,6 +56,7 @@ jebbs.plantuml
 graphql.vscode-graphql
 evilz.vscode-reveal
 onecentlin.laravel5-snippets
+davidanson.vscode-markdownlint
 )
 
 for i in ${packagelist[@]}; do
