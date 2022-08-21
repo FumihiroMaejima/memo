@@ -5,7 +5,7 @@
 # Install goenv
 ## install
 
-`golang`のアップデートバージョンをローカルに反映する為には、都度`goenv`を下記の通りにインストールする必要がある。(既存の.gonevはリネームする必要がある。)
+`golang`のアップデートバージョンをローカルに反映する為には、都度`goenv`を下記の通りにインストールする必要がある。(既存の.goenvはリネームする必要がある。)
 
 ```shell-sesshion
 $ git clone https://github.com/syndbg/goenv.git ~/.goenv
@@ -39,12 +39,15 @@ goenv 2.0.0beta11
 ---
 
 # Install Golang
+
 ## check installable version list
+
 ```shell-sesshion
 $ goenv install -l
 ```
 
 ## install latest version
+
 ```shell-sesshion
 $ goenv install 1.15.6
 Downloading go1.15.6.darwin-amd64.tar.gz...
@@ -52,6 +55,7 @@ Downloading go1.15.6.darwin-amd64.tar.gz...
 Installing Go Darwin 64bit 1.15.6...
 Installed Go Darwin 64bit 1.15.6 to /Users/user-name/.goenv/versions/1.15.6
 ```
+
 ## Copy Direcotory to $GOPATH
 
 ```shell-sesshion
