@@ -44,6 +44,7 @@ goenv 2.0.0beta11
 
 ```shell-sesshion
 $ goenv install -l
+$ goenv install -l | tail -n 15
 ```
 
 ## install latest version
