@@ -4,6 +4,10 @@
 # coenraads.bracket-pair-colorizer # -- it had vscode default function by setting.
 # )
 
+# optionsList=(
+# cweijan.vscode-redis-client
+# )
+
 # Visual Studio Code :: Package list
 packagelist=(
 arjun.swagger-viewer
