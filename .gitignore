@@ -34,3 +34,6 @@ pnpm-debug.log*
 
 # debug setting file
 .vscode/launch.json
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/targets.log
