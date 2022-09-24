@@ -4,6 +4,10 @@
 # coenraads.bracket-pair-colorizer # -- it had vscode default function by setting.
 # )
 
+# optionsList=(
+# cweijan.vscode-redis-client
+# )
+
 # Visual Studio Code :: Package list
 packagelist=(
 arjun.swagger-viewer
@@ -18,7 +22,6 @@ eamodio.gitlens
 ecmel.vscode-html-css
 ecodes.vscode-phpmd
 editorconfig.editorconfig
-eg2.tslint
 eg2.vscode-npm-script
 emallin.phpunit
 felixfbecker.php-debug
@@ -56,6 +59,8 @@ wwm.better-align
 jebbs.plantuml
 graphql.vscode-graphql
 evilz.vscode-reveal
+onecentlin.laravel5-snippets
+davidanson.vscode-markdownlint
 )
 
 for i in ${packagelist[@]}; do
