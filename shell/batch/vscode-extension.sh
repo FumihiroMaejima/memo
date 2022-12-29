@@ -61,6 +61,8 @@ graphql.vscode-graphql
 evilz.vscode-reveal
 onecentlin.laravel5-snippets
 davidanson.vscode-markdownlint
+bierner.markdown-mermaid
+yzane.markdown-pdf
 )
 
 for i in ${packagelist[@]}; do
