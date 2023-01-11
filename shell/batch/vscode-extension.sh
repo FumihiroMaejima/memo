@@ -55,7 +55,7 @@ shardulm94.trailing-spaces
 vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 vuetifyjs.vuetify-vscode
-wwm.better-align
+chouzz.vscode-better-align
 jebbs.plantuml
 graphql.vscode-graphql
 evilz.vscode-reveal
