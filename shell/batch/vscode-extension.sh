@@ -26,7 +26,6 @@ eg2.vscode-npm-script
 emallin.phpunit
 felixfbecker.php-debug
 felixfbecker.php-intellisense
-formulahendry.terminal
 golang.go
 gruntfuggly.todo-tree
 hediet.vscode-drawio
