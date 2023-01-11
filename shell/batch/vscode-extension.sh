@@ -22,7 +22,6 @@ eamodio.gitlens
 ecmel.vscode-html-css
 ecodes.vscode-phpmd
 editorconfig.editorconfig
-eg2.vscode-npm-script
 emallin.phpunit
 felixfbecker.php-debug
 felixfbecker.php-intellisense
