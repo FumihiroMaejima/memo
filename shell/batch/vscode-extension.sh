@@ -40,7 +40,6 @@ ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-ssh-explorer
-msjsdiag.debugger-for-chrome
 octref.vetur
 pkief.material-icon-theme
 recca0120.vscode-phpunit
