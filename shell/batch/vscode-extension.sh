@@ -28,7 +28,6 @@ felixfbecker.php-intellisense
 golang.go
 gruntfuggly.todo-tree
 hediet.vscode-drawio
-ikappas.phpcs
 leizongmin.node-module-intellisense
 linyang95.php-symbols
 mechatroner.rainbow-csv
