@@ -367,6 +367,14 @@ $ brew install git-flow
 $ brew install swagger-codegen
 ```
 
+---
+
+# jq
+
+```session
+$ brew install jq
+```
+
 
 ------------------------------------------------------
 
@@ -400,14 +408,16 @@ nvm
 npm packages(yarn, tsc etc)
 git-flow
 swagger-codegen
+jq
 ```
 
-openssl,git-flow,swagger-codegenは`homebrew`でインストールする
+openssl,git-flow,swagger-codegen,jqは`homebrew`でインストールする
 
 ```shell-session
 $ brew install openssl
 $ brew install git-flow
 $ brew install swagger-codegen
+$ brew install jq
 $ pip install awscli
 ```
 

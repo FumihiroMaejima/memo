@@ -22,15 +22,12 @@ eamodio.gitlens
 ecmel.vscode-html-css
 ecodes.vscode-phpmd
 editorconfig.editorconfig
-eg2.vscode-npm-script
 emallin.phpunit
 felixfbecker.php-debug
 felixfbecker.php-intellisense
-formulahendry.terminal
 golang.go
 gruntfuggly.todo-tree
 hediet.vscode-drawio
-ikappas.phpcs
 leizongmin.node-module-intellisense
 linyang95.php-symbols
 mechatroner.rainbow-csv
@@ -41,7 +38,6 @@ ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-ssh-explorer
-msjsdiag.debugger-for-chrome
 octref.vetur
 pkief.material-icon-theme
 recca0120.vscode-phpunit
@@ -55,12 +51,14 @@ shardulm94.trailing-spaces
 vincaslt.highlight-matching-tag
 vscode-icons-team.vscode-icons
 vuetifyjs.vuetify-vscode
-wwm.better-align
+chouzz.vscode-better-align
 jebbs.plantuml
 graphql.vscode-graphql
 evilz.vscode-reveal
 onecentlin.laravel5-snippets
 davidanson.vscode-markdownlint
+bierner.markdown-mermaid
+yzane.markdown-pdf
 )
 
 for i in ${packagelist[@]}; do

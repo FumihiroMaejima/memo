@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # CURRENT_DIR=$(cd $(dirname $0); pwd)
-SEPARATOPION='---------------------------'
+DELIMITER_LINE='------------------------------------------------------'
 START_MESSAGE='check container status.'
 DOCKER_COMPOSE_FILE='./docker-compose.yml'
 TMP_DIR=${PWD}
@@ -11,7 +11,7 @@ ADMIN_SERVICE_REPOSITORY=${HOME}/dev/path/admin
 
 # @param {string} message
 showMessage() {
-  echo ${SEPARATOPION}
+  echo ${DELIMITER_LINE}
   echo $1
 }
 
